@@ -16,7 +16,7 @@ export default {
   },
   data () {
     return {
-      msg: ' This website is currently under development. Thank you for visiting. Please come back later. '
+      msg: '| This website is currently under development. Thank you for visiting. Please come back later. |'
     }
   }
 }
@@ -25,17 +25,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1, h2 {
-  font-weight: normal;
+  font-weight: 500;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.hello{
+  width: 80%;
+  margin: auto;
 }
 </style>
