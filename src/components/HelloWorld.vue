@@ -1,12 +1,19 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <marquee-text :duration="15">
+      <h1>{{ msg }}</h1>
+    </marquee-text>
   </div>
 </template>
 
 <script>
+import MarqueeText from 'vue-marquee-text-component'
+
 export default {
   name: 'HelloWorld',
+  components: {
+    MarqueeText
+  },
   data () {
     return {
       msg: 'This website is currently under development. Please come back later.'
