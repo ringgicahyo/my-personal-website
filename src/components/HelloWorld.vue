@@ -16,7 +16,7 @@ export default {
   },
   data () {
     return {
-      msg: 'This website is currently under development. Please come back later. '
+      msg: ' This website is currently under development. Thank you for visiting. Please come back later. '
     }
   }
 }
