@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <marquee-text :duration="15">
+    <marquee-text>
       <h1>{{ msg }}</h1>
     </marquee-text>
   </div>
@@ -16,7 +16,7 @@ export default {
   },
   data () {
     return {
-      msg: 'This website is currently under development. Please come back later.'
+      msg: 'This website is currently under development. Please come back later. '
     }
   }
 }
